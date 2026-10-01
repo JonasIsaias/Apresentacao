@@ -264,14 +264,6 @@ video {
 
   height: 30px;
 
-  background:
-
-    linear-gradient(
-      135deg,
-      var(--red-orange),
-      var(--orange)
-    );
-
   border-radius: 8px;
 
   font-weight: 900;

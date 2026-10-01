@@ -1,0 +1,375 @@
+{
+  "title": "Principais entregas & ações do mês",
+  "subtitle": "Diretoria Executiva de Resolução e Experiência de Clientes · Setembro / 2026",
+  "topics": [
+    {
+      "id": "blitz-qualidade",
+      "category": "QUALIDADE • SAC • 16/09",
+      "title": "Blitz da Qualidade",
+      "summary": "Ação lúdica na operação, em dois turnos, reforçando os temas que mais geram NIP.",
+      "media": [
+        {
+          "type": "video",
+          "file": "Acao-Blitz.mp4"
+        },
+        {
+          "type": "image",
+          "file": "Blitz.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "setembro-amarelo",
+      "category": "CALL CENTER • 10 A 24/09",
+      "title": "Campanha Setembro Amarelo — BC 04, Duque e Juvenal",
+      "summary": "Ações de conscientização e palestras sobre saúde emocional nas sedes BC 04, BC Duque e Juvenal.",
+      "media": [
+        {
+          "type": "video",
+          "file": "Setembro_Amarelo.mp4"
+        },
+        {
+          "type": "image",
+          "file": "Campanha Setembro amarelo.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Campanha Setembro amarelo 2.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "correios",
+      "category": "COMUNICADO À OPERAÇÃO",
+      "title": "Comunicado — Paralisação dos Correios",
+      "summary": "Comunicado divulgado em 14/09: acesso ao boleto pelo App/Portal ou 2ª via por e-mail.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Comunicado para operação.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "flag-nip",
+      "category": "QUALIDADE & CONFORMIDADE REGULATÓRIA",
+      "title": "Cronograma de Entregas — Flag de Clientes Críticos de NIP (SIGO)",
+      "summary": "Sinaliza beneficiários com 3 ou mais NIPs nos últimos 6 meses; o operador aciona a supervisão antes de qualquer negativa.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Cronograma Corrigido (1).jpg"
+        },
+        {
+          "type": "image",
+          "file": "Cronograma Corrigido (2).jpg"
+        },
+        {
+          "type": "image",
+          "file": "Cronograma Corrigido (3).jpg"
+        },
+        {
+          "type": "image",
+          "file": "Cronograma Corrigido (4).jpg"
+        }
+      ],
+      "facts": [
+        [
+          "6",
+          "telas na flag"
+        ],
+        [
+          "4",
+          "telas já entregues"
+        ],
+        [
+          "2",
+          "previstas para 01/10"
+        ]
+      ]
+    },
+    {
+      "id": "telemedicina",
+      "category": "TELEMEDICINA AMBULATORIAL",
+      "title": "Desmobilização Telemedicina Ambulatorial — Neuroped e Genética",
+      "summary": "A partir de 01/10, Neuropediatria e Genética Médica passam a 100% Teleconsulta.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Criação de comunicado.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "01/10",
+          "início da nova operação"
+        ],
+        [
+          "100%",
+          "Teleconsulta"
+        ]
+      ]
+    },
+    {
+      "id": "agendamento-estrutura",
+      "category": "ESTRUTURA ORGANIZACIONAL",
+      "title": "Estrutura de gestão da Operação de Agendamento",
+      "summary": "Luciola Costa passa a integrar a gestão do Agendamento NDI, ao lado de Eduardo Pamplona na condução das frentes de Agendamento.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Organograma agendamento.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "conarec",
+      "category": "CAMPANHAS & EVENTOS • 23/09",
+      "title": "Evento Conarec",
+      "summary": "Adria Candido, Diretora Executiva, palestrou no painel “Menos litígio, mais saúde: como melhorar a percepção do usuário”.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Informativo de palestrante.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Momento da palestra.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Os palestrantes.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Time Hapvida em peso.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Time Hapvida em peso 2.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Time Hapvida em peso 3.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Time Hapvida em peso 4.jpg"
+        },
+        {
+          "type": "image",
+          "file": "Os palestrantes.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "23/09",
+          "data do evento"
+        ],
+        [
+          "ARENA AED",
+          "local"
+        ]
+      ]
+    },
+    {
+      "id": "celula-voz",
+      "category": "ESTRUTURA ORGANIZACIONAL",
+      "title": "Integração Célula de Voz da Ouvidoria Corporativa",
+      "summary": "A Célula de Voz passa a integrar a Ouvidoria Corporativa, com coffee de boas-vindas e premiação dos destaques da equipe.",
+      "media": [
+        {
+          "type": "image",
+          "file": "celula-voz-01.jpg"
+        },
+        {
+          "type": "image",
+          "file": "celula-voz-02.jpg"
+        },
+        {
+          "type": "image",
+          "file": "celula-voz-03.jpg"
+        },
+        {
+          "type": "image",
+          "file": "celula-voz-04.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "reclame-aqui",
+      "category": "CAMPANHA DE VOTAÇÃO",
+      "title": "Mobilização — Campanha do Reclame Aqui",
+      "summary": "Hapvida finalista em Planos de Saúde – Megaoperações, com a Diretoria à frente da mobilização.",
+      "media": [
+        {
+          "type": "video",
+          "file": "Video-Sexta-mensagem.mp4"
+        },
+        {
+          "type": "image",
+          "file": "reclame-aqui-01.jpg"
+        },
+        {
+          "type": "image",
+          "file": "reclame-aqui-02.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "noc",
+      "category": "OPERAÇÕES • NOC ATENDIMENTO",
+      "title": "NOC Atendimento — Criação de núcleo de acompanhamento de chamados",
+      "summary": "NOC Atendimento acompanhando chamados de Agendamento, SAC/Serviços, SAC Retorno e Autorização Voz e Chat.",
+      "media": [
+        {
+          "type": "image",
+          "file": "noc-atendimento-01.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "34",
+          "+240% vs. período anterior"
+        ],
+        [
+          "97%",
+          "resolvidos — 33 de 34"
+        ],
+        [
+          "9h18",
+          "tempo médio de resolução"
+        ],
+        [
+          "79%",
+          "dos chamados no WDE — 27 de 34"
+        ]
+      ]
+    },
+    {
+      "id": "judicializacao",
+      "category": "NOVAS OPERAÇÕES",
+      "title": "Núcleo de Judicialização",
+      "summary": "Núcleo criado para atuação sobre processos judiciais, com 1.651 processos encaminhados ao jurídico e capacitação da equipe.",
+      "media": [
+        {
+          "type": "image",
+          "file": "judicializacao-01.jpg"
+        },
+        {
+          "type": "image",
+          "file": "judicializacao-02.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "1.651",
+          "processos ao jurídico"
+        ],
+        [
+          "15",
+          "profissionais treinados"
+        ],
+        [
+          "9,75",
+          "média do pós-teste"
+        ],
+        [
+          "5,0",
+          "reação"
+        ]
+      ]
+    },
+    {
+      "id": "copay",
+      "category": "NOVAS OPERAÇÕES",
+      "title": "Primeiros resultados do Núcleo Copay",
+      "summary": "Núcleo criado para centralizar e agilizar a contestação de coparticipação. Piloto realizado com 33% dos motivos de contestação do beneficiário PF.",
+      "media": [
+        {
+          "type": "image",
+          "file": "copay-01.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "9% → 80%",
+          "resolução no 1º contato"
+        ],
+        [
+          "67%",
+          "fechamento no mesmo dia"
+        ],
+        [
+          "98,4%",
+          "qualidade"
+        ]
+      ]
+    },
+    {
+      "id": "casas-bahia",
+      "category": "GESTÃO DE RISCOS & CONTINUIDADE OPERACIONAL",
+      "title": "Risco Casas Bahia — Ações Internas",
+      "summary": "Risco Casas Bahia (PAD) mapeado, com ações de mitigação em curso.",
+      "media": [
+        {
+          "type": "image",
+          "file": "casas-bahia-01.jpg"
+        },
+        {
+          "type": "image",
+          "file": "casas-bahia-02.jpg"
+        },
+        {
+          "type": "image",
+          "file": "casas-bahia-03.jpg"
+        },
+        {
+          "type": "image",
+          "file": "casas-bahia-04.jpg"
+        },
+        {
+          "type": "image",
+          "file": "casas-bahia-05.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "~7.000",
+          "vidas no contrato"
+        ],
+        [
+          "~3.500",
+          "desligamentos"
+        ],
+        [
+          "8",
+          "NIPs até 10/09"
+        ],
+        [
+          "81",
+          "registros SAC até 11/09"
+        ]
+      ]
+    },
+    {
+      "id": "guariba",
+      "category": "GESTÃO DE RISCOS & CONTINUIDADE OPERACIONAL",
+      "title": "Transferência dos atendimentos das especialidades do Centro Clínico Guariba",
+      "summary": "Atendimentos do Anexo Santa Casa transferidos para a Clínica Guariba.",
+      "media": [
+        {
+          "type": "image",
+          "file": "guariba-01.jpg"
+        }
+      ],
+      "facts": []
+    }
+  ]
+}

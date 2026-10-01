@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121F2F">
+
+  <title>
+    Report Interativo · Diretoria · Setembro 2026
+  </title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+
+    <header class="topbar">
+
+      <button
+        class="brand"
+        id="homeBtn"
+        aria-label="Ir para o início"
+      >
+        <span class="brand-mark">H</span>
+
+        <span class="brand-name">
+          HAPVIDA
+        </span>
+      </button>
+
+
+      <div class="top-title">
+
+        <span>
+          DIRETORIA EXECUTIVA DE RESOLUÇÃO E EXPERIÊNCIA DE CLIENTES
+        </span>
+
+        <strong>
+          REPORT DE ENTREGAS · SETEMBRO / 2026
+        </strong>
+
+      </div>
+
+
+      <div class="top-actions">
+
+        <button
+          class="icon-btn"
+          id="searchBtn"
+          title="Pesquisar"
+          aria-label="Pesquisar"
+        >
+          ⌕
+        </button>
+
+        <button
+          class="icon-btn"
+          id="fullscreenBtn"
+          title="Tela cheia"
+          aria-label="Tela cheia"
+        >
+          ⛶
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         SEARCH
+    ========================================================== -->
+
+    <div
+      class="search-panel"
+      id="searchPanel"
+    >
+
+      <div class="search-glass">
+
+        <span class="search-icon">
+          ⌕
+        </span>
+
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Pesquisar entrega, tema ou palavra-chave..."
+          autocomplete="off"
+        >
+
+        <button id="clearSearch">
+          Limpar
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         MAIN
+    ========================================================== -->
+
+    <main id="main">
+
+
+      <!-- =======================================================
+           HERO
+      ======================================================== -->
+
+      <section
+        class="hero"
+        id="home"
+      >
+
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+
+
+        <div class="hero-copy">
+
+          <div class="eyebrow">
+            INTERNO · SETEMBRO / 2026
+          </div>
+
+
+          <h1>
+            Principais entregas
+            <br>
+            <em>& ações do mês</em>
+          </h1>
+
+
+          <p>
+            Qualidade · Operações · Riscos · Estrutura ·
+            Campanhas · Eventos
+          </p>
+
+
+          <div class="hero-actions">
+
+            <button
+              class="primary"
+              id="startBtn"
+            >
+              Explorar entregas
+
+              <span>
+                →
+              </span>
+            </button>
+
+
+            <button
+              class="secondary"
+              id="overviewBtn"
+            >
+              Ver visão geral
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- =====================================================
+             HERO VISUAL
+        ====================================================== -->
+
+        <div class="hero-visual">
+
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+
+
+          <div class="hero-card glass-card">
+
+            <div class="hero-card-number">
+              14
+            </div>
+
+            <div class="hero-card-line"></div>
+
+            <small>
+              ENTREGAS
+              <br>
+              INTERATIVAS
+            </small>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =======================================================
+           OVERVIEW
+      ======================================================== -->
+
+      <section
+        class="overview"
+        id="overview"
+      >
+
+        <div class="section-head">
+
+          <div>
+
+            <span class="eyebrow">
+              VISÃO GERAL
+            </span>
+
+            <h2>
+              Mapa das entregas
+            </h2>
+
+          </div>
+
+
+          <span
+            class="counter glass-badge"
+            id="overviewCounter"
+          >
+            14 temas
+          </span>
+
+        </div>
+
+
+        <div
+          class="overview-grid"
+          id="overviewGrid"
+        ></div>
+
+      </section>
+
+
+
+      <!-- =======================================================
+           TOPICS
+      ======================================================== -->
+
+      <section
+        class="topics-section"
+        id="topics"
+      >
+
+        <div class="section-head sticky-head">
+
+          <div>
+
+            <span class="eyebrow">
+              ENTREGAS
+            </span>
+
+          </div>
+
+
+          <div class="topic-nav glass-nav">
+
+            <button
+              id="prevBtn"
+              aria-label="Entrega anterior"
+            >
+              ←
+            </button>
+
+
+            <span id="topicIndex">
+              01 / 14
+            </span>
+
+
+            <button
+              id="nextBtn"
+              aria-label="Próxima entrega"
+            >
+              →
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div id="topicList"></div>
+
+      </section>
+
+    </main>
+
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="footer">
+
+      <span>
+        HAPVIDA · DIRETORIA EXECUTIVA DE RESOLUÇÃO E EXPERIÊNCIA
+        DE CLIENTES
+      </span>
+
+      <span>
+        SETEMBRO / 2026
+      </span>
+
+    </footer>
+
+  </div>
+
+
+
+  <!-- ===========================================================
+       LIGHTBOX
+  ============================================================ -->
+
+  <div
+    class="lightbox"
+    id="lightbox"
+    aria-hidden="true"
+  >
+
+    <div class="lightbox-backdrop"></div>
+
+
+    <button
+      class="lightbox-close"
+      id="lightboxClose"
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+
+    <button
+      class="lightbox-arrow left"
+      id="lightPrev"
+      aria-label="Mídia anterior"
+    >
+      ‹
+    </button>
+
+
+    <div
+      class="lightbox-content"
+      id="lightboxContent"
+    ></div>
+
+
+    <button
+      class="lightbox-arrow right"
+      id="lightNext"
+      aria-label="Próxima mídia"
+    >
+      ›
+    </button>
+
+
+    <div
+      class="lightbox-caption"
+      id="lightboxCaption"
+    ></div>
+
+  </div>
+
+
+
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

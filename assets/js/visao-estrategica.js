@@ -8,6 +8,7 @@ const $$ = (selector) => [...document.querySelectorAll(selector)];
 const STRATEGIC_IDS = [
   "flag-nip",
   "agendamento-estrutura",
+  "estrutura-inteligencia-negocios",
   "noc",
   "judicializacao",
   "copay",
@@ -78,6 +79,8 @@ function renderStrategyCards() {
 
       <h3>${escapeHTML(topic.title)}</h3>
       <p>${escapeHTML(topic.summary)}</p>
+      <br/>
+      <p>${escapeHTML(topic.summary_1)}</p>
 
       <span class="strategy-arrow">→</span>
     </button>
@@ -125,6 +128,10 @@ function renderTopics() {
 
           <p class="topic-summary">
             ${escapeHTML(topic.summary)}
+          </p>
+          <br/>
+          <p class="topic-summary">
+            ${escapeHTML(topic.summary_1)}
           </p>
 
           ${createFacts(facts)}

@@ -232,6 +232,11 @@ function renderTopics() {
                 <p>
                   ${escapeHTML(topic.summary)}
                 </p>
+                <br/>
+
+                <p>
+                  ${escapeHTML(topic.summary_1)}
+                </p>
 
               </div>
 

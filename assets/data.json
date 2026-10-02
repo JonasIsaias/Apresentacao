@@ -7,6 +7,7 @@
       "category": "QUALIDADE • SAC • 16/09",
       "title": "Blitz da Qualidade",
       "summary": "Ação lúdica na operação, em dois turnos, reforçando os temas que mais geram NIP.",
+      "summary_1": "",
       "media": [
         {
           "type": "video",
@@ -24,6 +25,7 @@
       "category": "CALL CENTER • 10 A 24/09",
       "title": "Campanha Setembro Amarelo — BC 04, Duque e Juvenal",
       "summary": "Ações de conscientização e palestras sobre saúde emocional nas sedes BC 04, BC Duque e Juvenal.",
+      "summary_1": "",
       "media": [
         {
           "type": "video",
@@ -45,6 +47,7 @@
       "category": "COMUNICADO À OPERAÇÃO",
       "title": "Comunicado — Paralisação dos Correios",
       "summary": "Comunicado divulgado em 14/09: acesso ao boleto pelo App/Portal ou 2ª via por e-mail.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -58,6 +61,7 @@
       "category": "QUALIDADE & CONFORMIDADE REGULATÓRIA",
       "title": "Cronograma de Entregas — Flag de Clientes Críticos de NIP (SIGO)",
       "summary": "Sinaliza beneficiários com 3 ou mais NIPs nos últimos 6 meses; o operador aciona a supervisão antes de qualquer negativa.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -96,6 +100,7 @@
       "category": "TELEMEDICINA AMBULATORIAL",
       "title": "Desmobilização Telemedicina Ambulatorial — Neuroped e Genética",
       "summary": "A partir de 01/10, Neuropediatria e Genética Médica passam a 100% Teleconsulta.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -118,6 +123,7 @@
       "category": "ESTRUTURA ORGANIZACIONAL",
       "title": "Estrutura de gestão da Operação de Agendamento",
       "summary": "Luciola Costa passa a integrar a gestão do Agendamento NDI, ao lado de Eduardo Pamplona na condução das frentes de Agendamento.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -127,10 +133,25 @@
       "facts": []
     },
     {
+      "id": "estrutura-inteligencia-negocios",
+      "category": "ESTRUTURA ORGANIZACIONAL",
+      "title": "Estrutura do time de Inteligência de Negócios (dados e análises)",
+      "summary": "Leandro ficará responsavel por: NIP's, Contencioso, Autos, Multas, CORE, Ouvidoria, Mídias Sociais e Reclame Aqui.",
+      "summary_1": "Rafael ficará resposanvel por: SAC, Serviços, Agendamento, BKO e Judicialização.",
+      "media": [
+        {
+          "type": "image",
+          "file": "judicializacao-02.jpg"
+        }
+      ],
+      "facts": []
+    },
+    {
       "id": "conarec",
       "category": "CAMPANHAS & EVENTOS • 23/09",
       "title": "Evento Conarec",
       "summary": "Adria Candido, Diretora Executiva, palestrou no painel “Menos litígio, mais saúde: como melhorar a percepção do usuário”.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -181,6 +202,7 @@
       "category": "ESTRUTURA ORGANIZACIONAL",
       "title": "Integração Célula de Voz da Ouvidoria Corporativa",
       "summary": "A Célula de Voz passa a integrar a Ouvidoria Corporativa, com coffee de boas-vindas e premiação dos destaques da equipe.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -206,6 +228,7 @@
       "category": "CAMPANHA DE VOTAÇÃO",
       "title": "Mobilização — Campanha do Reclame Aqui",
       "summary": "Hapvida finalista em Planos de Saúde – Megaoperações, com a Diretoria à frente da mobilização.",
+      "summary_1": "",
       "media": [
         {
           "type": "video",
@@ -227,6 +250,7 @@
       "category": "OPERAÇÕES • NOC ATENDIMENTO",
       "title": "NOC Atendimento — Criação de núcleo de acompanhamento de chamados",
       "summary": "NOC Atendimento acompanhando chamados de Agendamento, SAC/Serviços, SAC Retorno e Autorização Voz e Chat.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -257,6 +281,7 @@
       "category": "NOVAS OPERAÇÕES",
       "title": "Núcleo de Judicialização",
       "summary": "Núcleo criado para atuação sobre processos judiciais, com 1.651 processos encaminhados ao jurídico e capacitação da equipe.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -287,6 +312,7 @@
       "category": "NOVAS OPERAÇÕES",
       "title": "Primeiros resultados do Núcleo Copay",
       "summary": "Núcleo criado para centralizar e agilizar a contestação de coparticipação. Piloto realizado com 33% dos motivos de contestação do beneficiário PF.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -313,6 +339,7 @@
       "category": "GESTÃO DE RISCOS & CONTINUIDADE OPERACIONAL",
       "title": "Risco Casas Bahia — Ações Internas",
       "summary": "Risco Casas Bahia (PAD) mapeado, com ações de mitigação em curso.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",
@@ -359,6 +386,7 @@
       "category": "GESTÃO DE RISCOS & CONTINUIDADE OPERACIONAL",
       "title": "Transferência dos atendimentos das especialidades do Centro Clínico Guariba",
       "summary": "Atendimentos do Anexo Santa Casa transferidos para a Clínica Guariba.",
+      "summary_1": "",
       "media": [
         {
           "type": "image",

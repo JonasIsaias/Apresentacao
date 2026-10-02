@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102D8A">
+  <meta name="description" content="Visão Estratégica — Diretoria Executiva de Resolução e Experiência de Clientes · Setembro 2026">
+
+  <title>Visão Estratégica · Diretoria · Setembro 2026</title>
+
+  <link rel="icon" type="image/png" href="assets/images/hapvida-flor.png">
+  <link rel="apple-touch-icon" href="assets/images/hapvida-flor.png">
+
+  <link rel="stylesheet" href="assets/css/visao-estrategica.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+
+      <a class="brand" href="index.html" aria-label="Voltar para a Visão Geral">
+        <span class="brand-mark">
+          <img src="assets/images/hapvida-flor.png" alt="">
+        </span>
+        <span class="brand-name">HAPVIDA</span>
+      </a>
+
+      <div class="top-title">
+        <strong>DIRETORIA EXECUTIVA DE RESOLUÇÃO E EXPERIÊNCIA DE CLIENTES</strong>
+        <span>VISÃO ESTRATÉGICA · SETEMBRO / 2026</span>
+      </div>
+
+      <nav class="top-actions" aria-label="Navegação">
+        <a class="nav-pill" href="index.html">
+          <span>Visão Geral</span>
+        </a>
+        <button class="icon-btn" id="searchBtn" type="button" aria-label="Pesquisar">
+          <span>⌕</span>
+        </button>
+        <button class="icon-btn" id="fullscreenBtn" type="button" aria-label="Tela cheia">
+          <span>⛶</span>
+        </button>
+      </nav>
+
+    </div>
+
+    <div class="search-panel" id="searchPanel">
+      <div class="search-inner">
+        <span class="search-symbol">⌕</span>
+        <input
+          id="searchInput"
+          type="search"
+          autocomplete="off"
+          placeholder="Buscar nas frentes estratégicas..."
+          aria-label="Buscar nas frentes estratégicas"
+        >
+        <button id="clearSearch" type="button">Limpar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-grid">
+
+        <div class="hero-copy">
+
+          <div class="eyebrow">
+            <span class="pulse"></span>
+            VISÃO ESTRATÉGICA · SETEMBRO / 2026
+          </div>
+
+          <h1>
+            Os movimentos que
+            <span>merecem destaque.</span>
+          </h1>
+
+          <p class="hero-text">
+            Uma leitura executiva das seis frentes que concentram
+            estrutura, operação, resultados, conformidade e gestão de riscos
+            no período.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-btn" id="startBtn" type="button">
+              Explorar frentes
+              <span>→</span>
+            </button>
+
+            <a class="secondary-btn" href="index.html">
+              Voltar à Visão Geral
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-dot"></span>
+            Conteúdo derivado diretamente das entregas registradas no report.
+          </div>
+
+        </div>
+
+        <div class="hero-orbit" aria-hidden="true">
+
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+
+          <div class="hero-core">
+            <span class="core-label">FRentes</span>
+            <strong>06</strong>
+            <span class="core-caption">estratégicas</span>
+          </div>
+
+          <div class="orbit-chip chip-1">NIP</div>
+          <div class="orbit-chip chip-2">NOC</div>
+          <div class="orbit-chip chip-3">COPAY</div>
+          <div class="orbit-chip chip-4">RISCO</div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-scroll">
+        <span>SCROLL PARA EXPLORAR</span>
+        <i></i>
+      </div>
+
+    </section>
+
+    <section class="snapshot section-shell" id="snapshot">
+
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">LEITURA EXECUTIVA</span>
+          <h2>Seis frentes em primeiro plano</h2>
+        </div>
+
+        <div class="section-counter">
+          <strong>06</strong>
+          <span>frentes</span>
+        </div>
+      </div>
+
+      <div class="strategy-grid" id="strategyGrid"></div>
+
+    </section>
+
+    <section class="topics-section section-shell" id="topics">
+
+      <div class="topics-header">
+
+        <div>
+          <span class="eyebrow">DETALHAMENTO</span>
+          <h2>Movimentos estratégicos</h2>
+          <p>
+            Navegue pelas seis frentes e abra as evidências disponíveis em cada entrega.
+          </p>
+        </div>
+
+        <div class="topic-navigation">
+          <button id="prevBtn" type="button" aria-label="Anterior">←</button>
+          <span id="topicIndex">01 / 06</span>
+          <button id="nextBtn" type="button" aria-label="Próximo">→</button>
+        </div>
+
+      </div>
+
+      <div class="topic-list" id="topicList"></div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>HAPVIDA</strong>
+      <span>Diretoria Executiva de Resolução e Experiência de Clientes</span>
+    </div>
+
+    <a href="index.html">← Voltar para a Visão Geral</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+
+    <div class="lightbox-backdrop"></div>
+
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fechar">
+      ×
+    </button>
+
+    <button class="lightbox-nav lightbox-prev" id="lightPrev" type="button" aria-label="Anterior">
+      ←
+    </button>
+
+    <div class="lightbox-content-wrap">
+      <div class="lightbox-content" id="lightboxContent"></div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <button class="lightbox-nav lightbox-next" id="lightNext" type="button" aria-label="Próximo">
+      →
+    </button>
+
+  </div>
+
+  <script src="assets/js/visao-estrategica.js"></script>
+</body>
+</html>

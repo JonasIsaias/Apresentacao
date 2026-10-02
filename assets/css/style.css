@@ -263,6 +263,8 @@ video {
   width: 30px;
 
   height: 30px;
+  
+  
 
   border-radius: 8px;
 
@@ -746,6 +748,68 @@ h1 em {
 
   transform:
     translateY(-3px);
+
+}
+
+/* ============================================================
+   VISÃO ESTRATÉGICA
+============================================================ */
+
+.strategic-btn {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-decoration: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue),
+      var(--blue-light)
+    );
+
+  border:
+    1px solid
+    var(--blue);
+
+  color:
+    var(--white);
+
+  box-shadow:
+    0 12px 30px
+    rgba(21,57,170,.20);
+
+  backdrop-filter:
+    blur(12px);
+
+}
+
+
+.strategic-btn:hover {
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue-dark),
+      var(--blue)
+    );
+
+  border-color:
+    var(--blue-dark);
+
+  color:
+    var(--white);
+
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 18px 38px
+    rgba(21,57,170,.28);
 
 }
 

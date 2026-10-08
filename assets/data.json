@@ -57,6 +57,33 @@
       "facts": []
     },
     {
+      "id": "melhoria-credenciamento",
+      "category": "OPERAÇÕES • CREDENCIAMENTO",
+      "title": "Melhoria no Credenciamento — Identificação de Prestadores",
+      "summary": "Aprimoramento das telas T21PPP e T21PPC para facilitar a identificação de prestadores em processo de descredenciamento e direcionar ocorrências para tratamento pela área de Credenciamento.",
+      "summary_1": "A melhoria, disponibilizada em setembro, impacta diretamente o processo de Cadastro de Prestador ao ampliar a identificação das ocorrências e automatizar a abertura de SAC para Credenciamento.",
+      "media": [
+        {
+          "type": "image",
+          "file": "comunicado-tela-cred.jpeg"
+        }
+      ],
+      "facts": [
+        [
+          "T21PPP / T21PPC",
+          "telas contempladas"
+        ],
+        [
+          "D",
+          "identificação do prestador em descredenciamento"
+        ],
+        [
+          "SAC",
+          "abertura automática para Credenciamento"
+        ]
+      ]
+    },
+    {
       "id": "flag-nip",
       "category": "QUALIDADE & CONFORMIDADE REGULATÓRIA",
       "title": "Cronograma de Entregas — Flag de Clientes Críticos de NIP (SIGO)",

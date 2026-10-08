@@ -8,6 +8,7 @@ const $$ = (selector) => [...document.querySelectorAll(selector)];
 const STRATEGIC_IDS = [
   "flag-nip",
   "agendamento-estrutura",
+  "melhoria-credenciamento",
   "estrutura-inteligencia-negocios",
   "noc",
   "judicializacao",

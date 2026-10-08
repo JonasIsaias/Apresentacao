@@ -84,6 +84,33 @@
       ]
     },
     {
+      "id": "centralizacao-backoffice",
+      "category": "OPERAÇÕES • BACKOFFICE",
+      "title": "Centralização de Backoffice — Conclusão da Onda 1",
+      "summary": "Avanço do Programa de Centralização de Backoffice com a conclusão da Onda 1, contemplando as frentes de Relacionamento Comercial em CE e SP.",
+      "summary_1": "Em setembro, o programa avançou na consolidação do modelo de centralização, com direcionamentos distintos para as operações de Relacionamento Comercial: CE evoluiu para o modelo de Operação de FORT, enquanto SP avançou para o modelo de Gestão Centralizada.",
+      "media": [
+        {
+          "type": "image",
+          "file": "Centralizacao-Backoffice.jpeg"
+        }
+      ],
+      "facts": [
+        [
+          "ONDA 1",
+          "concluída em setembro"
+        ],
+        [
+          "CE",
+          "Relacionamento Comercial direcionado para Operação de FORT"
+        ],
+        [
+          "SP",
+          "Relacionamento Comercial avançou para Gestão Centralizada"
+        ]
+      ]
+    },
+    {
       "id": "flag-nip",
       "category": "QUALIDADE & CONFORMIDADE REGULATÓRIA",
       "title": "Cronograma de Entregas — Flag de Clientes Críticos de NIP (SIGO)",

@@ -11,8 +11,7 @@ const STRATEGIC_IDS = [
   "estrutura-inteligencia-negocios",
   "noc",
   "judicializacao",
-  "copay",
-  "casas-bahia"
+  "copay"
 ];
 
 const state = {

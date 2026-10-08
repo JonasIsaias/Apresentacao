@@ -9,6 +9,7 @@ const STRATEGIC_IDS = [
   "flag-nip",
   "agendamento-estrutura",
   "melhoria-credenciamento",
+  "centralizacao-backoffice",
   "estrutura-inteligencia-negocios",
   "noc",
   "judicializacao",
